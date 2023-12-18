@@ -1,0 +1,25 @@
+/* Reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;  
+}
+
+
+li {
+  list-style-type: none;
+}
+
+
+/* CUSTOM PROPS */
+
+:root {
+  --small-space: 1rem;
+  --medium-space: 2rem;
+  --large-space: 3rem;
+  --xlarge-space: 4rem;
+}
+
+/* UTILS */
+
