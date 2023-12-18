@@ -39,19 +39,26 @@ body {
 
 .container {
   max-width: 1080px;
+  /* debug */
   border-left: 2px dashed red;
   border-right: 2px dashed red;
 }
 
-section:nth-child(odd) {
-  background-color: #1abc9c;
-}
-
-
 /* debug */
 
 .debug {
-  border: 2px dashed red;
+  border: 2px dashed black;
+}
+
+.debug-h {
+  border: 2px dashed white;
+}
+
+
+
+
+section:nth-child(odd) {
+  background-color: #1abc9c;
 }
 
 
