@@ -48,6 +48,13 @@ section:nth-child(odd) {
 }
 
 
+/* debug */
+
+.debug {
+  border: 2px dashed red;
+}
+
+
 /* ===========
     HEADER 
 =============*/
