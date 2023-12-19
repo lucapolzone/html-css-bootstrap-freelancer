@@ -19,38 +19,44 @@
   <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-  <header class="py-2 fw-bold">
+  <header class="py-4 fw-bold">
     <div class="container d-flex justify-content-between">
-      <p class="p-1">START BOOTSTRAP</p>
+      <p class="px-1">START BOOTSTRAP</p>
       <nav>
         <ul class="d-flex debug-l">
-          <li class="p-1">PORTFOLIO</li>
-          <li class="p-1">ABOUT</li>
-          <li class="p-1">CONTACT</li>
+          <li class="px-2">PORTFOLIO</li>
+          <li class="px-2">ABOUT</li>
+          <li class="px-2">CONTACT</li>
         </ul>
       </nav>
     </div>
   </header>
   <main>
-    <section class="hero-image">
+    <section class="hero-image py-5">
       <div class="container d-flex flex-column align-items-center" alt="">
         <img src="./img/avatar.svg" class="img-avatar"></img>
-        <h1 class="text-center fw-bold">START BOOTSTRAP</h1>
-        <div class="decoration-star d-flex align-items-center">
-          <div class="white-line rounded mx-3"></div>
+        <h1 class="text-center fw-bold mt-3">START BOOTSTRAP</h1>
+        <div class="decoration-star d-flex align-items-center my-3">
+          <div class="container-line rounded mx-3"></div>
           <p class="star fs-4">
             <i class="fa-solid fa-star"></i>
           </p>
-          <div class="white-line rounded mx-3"></div>
+          <div class="container-line rounded mx-3"></div>
         </div>
         <p class="text-center fs-5">GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</p>
       </div>      
     </section>
     
-    <section>
-      <div class="container text-center">
+    <section class="py-5">
+      <div class="container text-center d-flex flex-column align-items-center">
         <h2 class="fw-bold">PORTFOLIO</h2>
-      
+        <div class="decoration-star d-flex align-items-center my-3">
+          <div class="container-line black rounded mx-3"></div>
+          <p class="star fs-4">
+            <i class="fa-solid fa-star"></i>
+          </p>
+          <div class="container-line black rounded mx-3"></div>
+        </div>
         <div class="row g-4">
           <div class="col-4 debug">
             <img src="./img/cabin.png" class="w-100 rounded-4" alt="">
@@ -74,20 +80,30 @@
       </div>      
     </section>
 
-    <section>
-      <div class="container d-flex flex-column">
-        <h2 class="text-center fw-bold">ABOUT</h2>              
-        <div class="row d-flex justify-content-center">
+    <section class="py-5">
+      <div class="container d-flex flex-column align-items-center">
+        <h2 class="text-center fw-bold">ABOUT</h2>
+        <div class="decoration-star d-flex align-items-center my-3">
+          <div class="container-line rounded mx-3"></div>
+          <p class="star fs-4">
+            <i class="fa-solid fa-star"></i>
+          </p>
+          <div class="container-line rounded mx-3"></div>
+        </div>   
+        <div class="row d-flex justify-content-center fs-5">
           <div class="col-5 debug">
             Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScripst as well as optional LESS stylesheets for easy customization.
           </div>
           <div class="col-5 debug">Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</div>
         </div>
-        <button type="button" class="btn btn-primary align-self-center">Primary</button>
+        <button type="button" class="btn btn-outline-light align-self-center mt-5">
+          <i class="fa-solid fa-download"></i>
+          Download
+        </button>
       </div>
     </section>
 
-    <section>
+    <section class="py-5">
       <div class="container">
         <h2 class="text-center fw-bold">CONTACT ME</h2>     
         <div class="w-100 p-3 debug">
@@ -98,39 +114,47 @@
   </main>    
   
   <footer>
-    <section class="py-3">
-      <div class="container text-center">
+    <section class="py-5">
+      <div class="container text-center fs-5">
         <div class="row">
           <div class="col-4 debug-l">
-            <p>LOCATION</p>
+            <p class="mb-3">LOCATION</p>
             <p>2215 John Daniel Drive Clark, MO</p>
             <p>54243</p> 
           </div>
           <div class="col-4 debug-l">
-            <p>AROUND THE WEB</p>
-            <ul class="d-flex">
-              <li>
-                <i class="fa-brands fa-facebook"></i>
+            <p class="mb-3">AROUND THE WEB</p>
+            <ul class="d-flex justify-content-center">
+              <li class="mx-2">
+                <div class="circle-social p-2 border border-light rounded-circle">
+                  <i class="fa-brands fa-facebook-f"></i>
+                </div>
               </li>
-              <li>
-                <i class="fa-brands fa-facebook"></i>
+              <li class="mx-2">
+                <div class="circle-social p-2 border border-light rounded-circle">
+                  <i class="fa-brands fa-google-plus-g"></i>
+                </div>
               </li>
-              <li>
-                <i class="fa-brands fa-facebook"></i>
+              <li class="mx-2">
+                <div class="circle-social p-2 border border-light rounded-circle">
+                  <i class="fa-brands fa-twitter"></i>
+                </div>
               </li>
-              <li>
-                <i class="fa-brands fa-facebook"></i>
+              <li class="mx-2">
+                <div class="circle-social p-2 border border-light rounded-circle">
+                  <i class="fa-brands fa-linkedin-in"></i>
+                </div>
               </li>
             </ul>
           </div>
-          <div class="col-4 debug-l py-3">
-            <p>ABOUT FREELANCER</p>
-            <p>Freelance is a free to use, open source Bootstrap theme created by Bootstrap.</p>              
+          <div class="col-4 debug-l">
+            <p class="mb-3">ABOUT FREELANCER</p>
+            <p>Freelance is a free to use, open source Bootstrap theme created by Start Bootstrap.</p>              
           </div>
         </div>
       </div>
     </section>
-    <section class="py-3">
+    <section class="py-5">
       <p class="container py-2 col-4 debug-l text-center">Copyright &copy; Your Website 2019</p>
     </section>
   </footer>
