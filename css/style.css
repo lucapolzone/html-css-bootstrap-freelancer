@@ -16,6 +16,12 @@ p {
   padding: 0;
 }
 
+h1,
+h2 {
+  margin: 0;
+  padding: 0;
+}
+
 
 li {
   list-style-type: none;
@@ -23,50 +29,31 @@ li {
 
 
 
-/* CUSTOM PROPS */
-
-:root {
-  --small-space: 1rem;
-  --medium-space: 2rem;
-  --large-space: 3rem;
-  --xlarge-space: 4rem;
-}
-
 /* UTILS */
 
-.container {
-  max-width: 1080px;
-  margin: 0 auto;
-  /* debug */
+/* .container {
   border-left: 2px dashed red;
   border-right: 2px dashed red;
 }
-
-.container-short {
-  max-width: 960px;
-  margin: 0 auto;
-  /* debug */
-  border-left: 2px dashed red;
-  border-right: 2px dashed red;
-}
+ */
 
 
 /* debug */
 
-.debug {
+/* .debug {
   border: 2px dashed black;
 }
 
 .debug-l {
   border: 2px dashed white;
-}
+} */
 
-section:nth-child(odd) {
+main section:nth-child(odd) {
   background-color: #1abc9c;
   color: white;
 }
 
-section:nth-child(even) {
+main section:nth-child(even) {
   background-color: white;
   color: black;
 }
@@ -82,10 +69,31 @@ header {
 }
 
 
+/* ===========
+    HERO IMAGE 
+=============*/
+
+
+.img-avatar {
+  width: 200px;
+}
+
+.white-line {
+  height: 3px;
+  background-color: white;
+  width: 120px;
+}
+
+
+
 
 /* ===========
     FOOTER 
 =============*/
+
+footer {
+  color: white;
+}
 
 footer section:nth-child(odd) {
   background-color: #3a546d;
