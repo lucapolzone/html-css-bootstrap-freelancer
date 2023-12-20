@@ -23,11 +23,16 @@
     <div class="container d-flex justify-content-between">
       <p class="px-1">START BOOTSTRAP</p>
       <nav>
-        <ul class="d-flex">
-          <li class="px-2">PORTFOLIO</li>
-          <li class="px-2">ABOUT</li>
-          <li class="px-2">CONTACT</li>
+        <ul class="d-none d-md-block">
+          <li class="px-2 d-inline-block">PORTFOLIO</li>
+          <li class="px-2 d-inline-block">ABOUT</li>
+          <li class="px-2 d-inline-block">CONTACT</li>
         </ul>
+        
+        <!-- Hamburger menu -->
+        <div class="d-md-none border border-1 rounded px-3 py-1">
+          <i class="fa-solid fa-bars"></i>
+        </div>        
       </nav>
     </div>
   </header>
