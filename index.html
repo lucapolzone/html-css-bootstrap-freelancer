@@ -104,11 +104,60 @@
     </section>
 
     <section class="py-5">
+      <h2 class="text-center fw-bold mb-5">CONTACT ME</h2>     
       <div class="container">
-        <h2 class="text-center fw-bold">CONTACT ME</h2>     
-        <div class="w-100 p-3">
-          <p class="text-center">=== FORM ===</p>
+        <form 
+          action="https://learning.tizianonicolai.com/request-catcher/"
+          method="POST"
+          target="_blank"
+          class="p-5" 
+        >
+        <div class="row g-3"> 
+          <div>
+            <!-- Nome -->
+            <input 
+              type="text"
+              class="col-12 rounded-0 border-top-0 border-end-0 border-start-0"
+              id="name" 
+              name="Name"
+              placeholder="Name" 
+            >
+          </div>
+          <div>
+            <!-- Mail -->
+            <input 
+              type="email"
+              class="col-12 rounded-0 border-top-0 border-end-0 border-start-0"              
+              id="email"
+              name="Email"              
+              placeholder="Email address" 
+            >
+          </div>
+          <div>
+            <!-- Telefono -->
+            <input
+              type="text"  
+              class="col-12 rounded-0 border-top-0 border-end-0 border-start-0"
+              id="phone-number" 
+              name="Phone-number"              
+              placeholder="Phone number"
+            >
+          </div>
+          <div>
+            <!-- Messaggio -->
+            <textarea
+              class="col-12 rounded-0 border-top-0 border-end-0 border-start-0"
+              rows="10"
+              id="message"
+              name="Message" 
+              placeholder="Message" 
+            >
+            </textarea>
+          </div>
         </div>
+          <!-- Bottone invio -->
+          <button class="btn btn-success mt-3">Send</button>
+        </form>
       </div>
     </section>
   </main>    
